@@ -1,6 +1,9 @@
 //Digital out pins 2-9 from arduino.
-//Bottom 4 pins in on the 7 segment display,
-//then top 4 pins (left to right) 
+//Bottom 4 pins in on the 7 segment display, then top 4 pins (left to right).
+//
+//(2, 3, 4, 5, 6, 7, 8, 9)
+// |  |  |  |  |  |  |  |
+//(E, D, C, ., G, F, A, B)
 
 int n_1[2] = { 4, 9 };
 int n_2[5] = { 2, 3, 6, 8, 9 };
