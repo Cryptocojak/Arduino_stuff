@@ -49,7 +49,8 @@ clearDisplay();
 
 void setup() {
   outputMode();
-
+   
+//example code to count from 0-9
   printDigit(n_0, 6);
   printDigit(n_1, 2);
   printDigit(n_2, 5);
