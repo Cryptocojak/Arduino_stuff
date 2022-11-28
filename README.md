@@ -1,2 +1,2 @@
 # Arduino_stuff
-These are some Arduino sketches I've made  
+These are some basic Arduino sketches I've made.
