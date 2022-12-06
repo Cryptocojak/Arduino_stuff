@@ -1,5 +1,5 @@
 /*
-7-Segment Display CC (5611AS)
+7-Segment Display CC (5611AS) controlled with 74HC595N shift register :)
 
   < [  A  ] >       
  [ ]       [ ]            
