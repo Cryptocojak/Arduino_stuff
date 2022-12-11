@@ -100,15 +100,12 @@ void mux(int one, int two, int three, int four) {
     digitalWrite(DIGIT_1, HIGH); setSegments(one);
     delay(frameRate); clearSegments(); digitalWrite(DIGIT_1, LOW);
     
-
     digitalWrite(DIGIT_2, HIGH); setSegments(two);
     delay(frameRate); clearSegments(); digitalWrite(DIGIT_2, LOW);
    
-
     digitalWrite(DIGIT_3, HIGH); setSegments(three);
     delay(frameRate); clearSegments(); digitalWrite(DIGIT_3, LOW);
     
-
     digitalWrite(DIGIT_4, HIGH); setSegments(four);
     delay(frameRate); clearSegments(); digitalWrite(DIGIT_4, LOW);
   }
@@ -129,5 +126,12 @@ mux(_G, _H, _I, _J); mux(_H, _I, _J, _K); mux(_I, _J, _K, _L); mux(_J, _K, _L, _
 mux(_L, _M, _N, _O); mux(_M, _N, _O, _P); mux(_N, _O, _P, _Q); mux(_O, _P, _Q, _R); mux(_P, _Q, _R, _S);
 mux(_Q, _R, _S, _T); mux(_R, _S, _T, _U); mux(_S, _T, _U, _V); mux(_T, _U, _V, _W); mux(_U, _V, _W, _X);
 mux(_V, _W, _X, _Y); mux(_W, _X, _Y, _Z); mux(_X, _Y, _Z, __); mux(_Y, _Z, __, __); mux(_Z, __, __, __);
+
+mux(__, __, __, __); mux(__, __, __, _1); mux(__, __, _1, _2); mux(__, _1, _2, _3); mux(_1, _2, _3, _4);
+mux(_2, _3, _4, _5); mux(_3, _4, _5, _6); mux(_4, _5, _6, _7); mux(_5, _6, _7, _8); mux(_6, _7, _8, _9);
+mux(_7, _8, _9, _0); mux(_8, _9, _0, __); mux(_9, _0, __, __); mux(_0, __, __, __); 
+
+mux(__, __, __, __); mux(__, __, __, _DP); mux(__, __, _DP, _QM); mux(__, _DP, _QM, _AS); 
+mux(_DP, _QM, _AS, __); mux(_QM, _AS, __, __); mux(_AS, __, __, __);
 
 }
